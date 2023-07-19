@@ -35,7 +35,7 @@ cmd.select("H1", "chain H and resi 32 chain H and resi 33")
 cmd.select("L1", "chain L and resi 31 chain L and resi 32")
 cmd.select("H2", "chain H and resi 50 or chain H and resi 53 or chain H and resi 58")
 cmd.select("L2", "chain L and resi 50")
-cmd.select("H3", "chain H and resi 99 or chain H and resi 101")
+cmd.select("H3", "chain H and resi 99")
 cmd.select("L3", "chain L and resi 91 or chain L and resi 92 or chain L and resi 93")
 
 cmd.label("H1 and name CA", '"%s%s" % (chain, resi)')
@@ -73,4 +73,5 @@ cmd.set_view (\
 
 # cmd.set_view ('''-0.106774643,    0.854861915,    0.507715821,-0.593984485,   -0.464347214,    0.656918108, 0.797331810,   -0.231436923,    0.557359278, 0.000078667,   -0.000750449, -164.308609009, 40.990982056,   35.819225311,   16.685676575, 54.912658691,  272.817779541,  -20.000000000''')
 
-cmd.png("pre_fig1.png", width=400, height=400, dpi=100, ray=3)
+# cmd.png("pre_fig1.png", width=800, height=800, dpi=600, ray=3)
+# cmd.png("pre_fig1.png", width=400, height=400, dpi=100, ray=3)
